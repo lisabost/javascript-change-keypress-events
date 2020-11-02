@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change</title>
+    <link rel="stylesheet" href="change.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td>Qty</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Total</td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" name="quantityJQuery" id="quantityJQuery" value="1">
+        </td>
+        <td>
+            <label for="quantityJQuery">Learning jQuery</label>
+        </td>
+        <td>
+            $39.99
+        </td>
+        <td>$ <span id="jQueryTotal">39.99</span></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" name="quantityDonation" id="quantityDonation" value="1">
+        </td>
+        <td>
+            <label for="quantityDonation">jQuery Donation</label>
+        </td>
+        <td>
+            $14.99
+        </td>
+        <td >$ <span id="donationTotal">14.99</span></td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>Grand Total</td>
+        <td>$ <span id="grandTotal"></span></td>
+    </tr>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="change.js"></script>
+</body>
+</html>
